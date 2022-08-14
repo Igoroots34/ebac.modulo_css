@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: black;
+    padding: 16px 0;
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.articles article a {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration-line: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(1, 167, 1, 0.2);
+}
+
+#sports article a {
+    background-color: rgba(3, 102, 3, 0.644);
+}
+
+#sports h2,
+#sports h3 {
+    color:mediumseagreen;
+}
+
+#economy {
+    background-color: rgba(167, 164, 1, 0.2);
+}
+
+#economy article a {
+    background-color: rgba(221, 224, 9, 0.644);
+}
+
+#economy h2,
+#economy h3 {
+    color:goldenrod;
+}
+
+#health {
+    background-color: rgba(167, 1, 1, 0.479);
+}
+
+#health article a {
+    background-color: rgba(224, 9, 9, 0.644);
+}
+
+#health h2,
+#health h3 {
+    color:darkred;
+}
+
+footer {
+    height: 48px;
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 0;
+    margin-top: 24px;
+}
+
+#tech {
+    background-color: rgba(10, 136, 158, 0.37);
+}
+
+#tech article a {
+    background-color: darkblue;
+    color: #fff;
+}
+
+#tech h2,
+#tech h3 {
+    color:darkblue;
+}
